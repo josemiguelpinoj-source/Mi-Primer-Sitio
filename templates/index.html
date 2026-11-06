@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panadería La Sabrosa</title>
+    <style>
+        :root {
+            color-scheme: light;
+            --cream: #fff8ed;
+            --brown: #4a2c20;
+            --gold: #d98b36;
+            --rose: #f7dfd0;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            background: var(--cream);
+            color: var(--brown);
+            font-family: Georgia, "Times New Roman", serif;
+        }
+
+        .hero {
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .card {
+            background: #ffffff;
+            border: 1px solid var(--rose);
+            border-radius: 1.5rem;
+            box-shadow: 0 1rem 3rem rgba(74, 44, 32, 0.12);
+            max-width: 700px;
+            padding: 4rem 2rem;
+            width: 100%;
+        }
+
+        .emoji {
+            font-size: 4rem;
+        }
+
+        h1 {
+            font-size: clamp(2.4rem, 8vw, 4.5rem);
+            margin: 1rem 0;
+        }
+
+        p {
+            font-family: Arial, sans-serif;
+            font-size: 1.15rem;
+            line-height: 1.6;
+            margin: 0 auto;
+            max-width: 30rem;
+        }
+
+        .tagline {
+            color: var(--gold);
+            font-weight: bold;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+<body>
+    <main class="hero">
+        <section class="card">
+            <div class="emoji" aria-hidden="true">🥖</div>
+            <p class="tagline">Hecho con cariño</p>
+            <h1>Panadería La Sabrosa</h1>
+            <p>Pan recién horneado, dulces caseros y el sabor que convierte cada día en una ocasión especial.</p>
+        </section>
+    </main>
+</body>
+</html>
